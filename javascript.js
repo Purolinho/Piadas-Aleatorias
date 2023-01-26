@@ -12,10 +12,4 @@ async function getjoke() {
 var botao = document.getElementById("botao")
 botao.addEventListener("click", () => {
     getjoke()
-    piada.style.transition = "0s"
-    piada.style.opacity = 0
-    setTimeout(() => {
-    piada.style.transition = "1s"
-    piada.style.opacity = 1
-    }, 100);
 })
